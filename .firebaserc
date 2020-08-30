@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "employee-db-nw": {
+      "hosting": {
+        "employeedb": [
+          "employee-db-nw"
+        ]
+      }
+    }
+  }
+}

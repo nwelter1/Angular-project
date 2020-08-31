@@ -8,7 +8,7 @@
     >
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
-        <a mat-list-item routerLink="/home" (click)="drawer.close()">Home</a>
+        <a mat-list-item routerLink="/home" (click)="drawer.close()">Data Entry</a>
         <a mat-list-item routerLink="/data" (click)="drawer.close()">Show Data</a>
         <a mat-list-item appGoogleSignin>Sign In with Google</a>
         <a mat-list-item (click)="log_out_user()">Log Out</a>
@@ -27,10 +27,10 @@
         ><mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
     </button>
 
-    <span class="logo" routerLink="/home">Employee Database</span>
+    <span class="logo" routerLink="/home">Employee DB</span>
     <span class="fill-space"></span>
     <div *ngIf="!(isHandset$ | async)">
-        <a mat-button routerLink="/home">Home</a>
+        <a mat-button routerLink="/home">Data Entry</a>
         <a mat-button routerLink="/data">Show Data</a>
         <a mat-button appGoogleSignin>Sign In with Google</a>
         <a mat-button (click)="log_out_user()">Log Out</a>
